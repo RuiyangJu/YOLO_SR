@@ -37,7 +37,8 @@
 ## Usage
 ### Model:
 
-* YOLOv4 models in [Yolo_SR\models]
+* YOLOv4 models in [Yolo_SR\model_data]
+* ESRGAN models in [Yolo_SR\models]
 
 * Object Detection
 ```
