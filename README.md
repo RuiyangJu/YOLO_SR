@@ -34,10 +34,8 @@ The efficient segmentation of foreground text information from the background in
 * YOLOv4:
   [(Download Link)](https://www.dropbox.com/s/8l4va3n1cu6ul8o/yolo4.zip?dl=0)
   
-* Test: 
-
-  DIBCO 2011, DIBCO 2013, H-DIBCO 2014, H-DIBCO 2016, DIBCO 2017, H-DIBCO2018
-  [(Download Link)](https://www.dropbox.com/s/54ye0mtdcvqas4o/Testset.zip?dl=0)
+* ESRGAN: 
+  [(Download Link)](https://www.dropbox.com/s/va58gkcfo8d0c9d/prdb.zip?dl=0)
 
 ## Usage
 * Patch per datasets
@@ -82,22 +80,6 @@ The efficient segmentation of foreground text information from the background in
 ```
     python3 eval_stage3_all.py
 ```
-
-## Comparison Experiment of Stage-1 on the H-DIBCO 2014
-| Option | Input | GT | FM↑ | p-FM↑ | PSNR↑ | DRD↓ |
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | \ | \ | 96.50 | 97.50 | 22.08 | 1.01 |
-| 2 | \ | DWT(LL) | 96.52 | 97.70 | 22.15 | 0.99 |
-| 3 | \ | DWT(LL)+Norm | **96.88** | **98.03** | **22.68** | **0.89** |
-| 4 | DWT(LL) | \  | 95.94 | 96.91 | 21.31 | 1.19 |
-| 5 | DWT(LL)+Norm | \ | 96.29 | 97.48 | 22.05 | 1.16 |
-| 6 | DWT(LL) | DWT(LL) | 96.60 | 97.60 | 22.27 | 0.97 |
-| 7 | DWT(LL)+Norm | DWT(LL)+Norm | 96.77 | 97.89 | 22.52 | 0.91 | 
-
-* Option 2 is `method1_NA_LL.py`
-* Option 3 is `method2_NA_LLandNorm.py`
-* Option 6 is `method3_LL_LL.py`
-* Option 7 is `method4_LLandNorm_LLandNorm`
 
 ## References
 [DocumentBinarization](https://github.com/opensuh/DocumentBinarization)
