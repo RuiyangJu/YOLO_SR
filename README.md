@@ -9,9 +9,13 @@
   <img src="Yolo_SR/yolo_detection/det_img_example.jpg" width="640" title="detection">
 </p>
 
-### Stage-3 Flowchart
+### Example of cropped Image
 <p align="center">
-  <img src="Figure/figure_stage_3.jpg" width="480" title="Stage-3">
+  <img src="Yolo_SR/yolo_output/croped_img_example_0.jpg" width="240" title="cropped">
+  <img src="Yolo_SR/yolo_output/croped_img_example_1.jpg" width="240" title="cropped">
+  <img src="Yolo_SR/yolo_output/croped_img_example_2.jpg" width="240" title="cropped">
+  <img src="Yolo_SR/yolo_output/croped_img_example_3.jpg" width="240" title="cropped">
+  <img src="Yolo_SR/yolo_output/croped_img_example_4.jpg" width="240" title="cropped">
 </p>
 
 ## Abstract
