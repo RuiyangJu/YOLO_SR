@@ -35,47 +35,17 @@
   [(Download Link)](https://www.dropbox.com/s/va58gkcfo8d0c9d/prdb.zip?dl=0)
 
 ## Usage
-* Patch per datasets
+### Model:
 
-    Example: 512×512
-<p align="center">
-<img src="img_512X512/PHIBD_2012_4_h0.png" width="120" title="512_1">
-<img src="img_512X512/PHIBD_2012_4_r0.png" width="120" title="512_2">
-<img src="img_512X512/PHIBD_2012_4_r1.png" width="120" title="512_3">
-<img src="img_512X512/PHIBD_2012_4_r2.png" width="120" title="512_4">
-<img src="img_512X512/PHIBD_2012_4_r3.png" width="120" title="512_5">
-<img src="img_512X512/PHIBD_2012_4_v0.png" width="120" title="512_6">
-</p>
+* YOLOv4 models in [Yolo_SR\models]
 
+* Object Detection
 ```
-    python3 image_to_256.py
-    python3 image_to_512.py
+    python3 yolo_test.py
 ```
-
-* Discrete Wavelet Transform
-
-    Example: Blue, Green, Red
-<p align="center">
-<img src="img_dwt/blue.bmp" width="240" title="blue">
-<img src="img_dwt/green.bmp" width="240" title="green">
-<img src="img_dwt/red.bmp" width="240" title="red">
-</p>
-
+* Super-resolution
 ```
-    python3 image_dwt_original.py
-    python3 image_dwt_256.py
-```
-* Train the model
-```
-    python3 train_stage2.py
-    python3 predict_for_stage3.py
-    python3 train_stage3.py
-    python3 train_stage3_resize.py
-```
-
-* Evaluation the model
-```
-    python3 eval_stage3_all.py
+    python3 SR_test.py
 ```
 
 ## References
