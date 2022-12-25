@@ -1,12 +1,12 @@
 ## YOLOv4 and Enhanced SRGAN
 ### Example of Input Image
 <p align="center">
-  <img src="Yolo_SR/input/example.jpg" width="480" title="Stage-1">
+  <img src="Yolo_SR/input/example.jpg" width="640" title="input">
 </p>
 
-### Stage-2 Flowchart
+### Example of Detection Image
 <p align="center">
-  <img src="Figure/figure_stage_2.jpg" width="480" title="Stage-2">
+  <img src="Yolo_SR/yolo_detection/det_img_example.jpg" width="640" title="detection">
 </p>
 
 ### Stage-3 Flowchart
