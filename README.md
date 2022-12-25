@@ -11,11 +11,11 @@
 
 ### Example of cropped Image
 <p align="center">
-  <img src="Yolo_SR/yolo_output/croped_img_example_0.jpg" width="64" title="cropped">
-  <img src="Yolo_SR/yolo_output/croped_img_example_1.jpg" width="64" title="cropped">
-  <img src="Yolo_SR/yolo_output/croped_img_example_2.jpg" width="64" title="cropped">
-  <img src="Yolo_SR/yolo_output/croped_img_example_3.jpg" width="64" title="cropped">
-  <img src="Yolo_SR/yolo_output/croped_img_example_4.jpg" width="64" title="cropped">
+  <img src="Yolo_SR/yolo_output/croped_img_example_0.jpg" width="120" title="cropped">
+  <img src="Yolo_SR/yolo_output/croped_img_example_1.jpg" width="120" title="cropped">
+  <img src="Yolo_SR/yolo_output/croped_img_example_2.jpg" width="120" title="cropped">
+  <img src="Yolo_SR/yolo_output/croped_img_example_3.jpg" width="120" title="cropped">
+  <img src="Yolo_SR/yolo_output/croped_img_example_4.jpg" width="120" title="cropped">
 </p>
 
 ## Abstract
