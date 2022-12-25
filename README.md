@@ -80,4 +80,5 @@
 
 ## References
 [Cropped Detection](https://github.com/GaoZiqiang/crop_objects_based_yolov4_pytorch)
+
 [ESRGAN](https://github.com/xinntao/ESRGAN)
