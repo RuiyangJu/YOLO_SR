@@ -30,30 +30,9 @@
 ## Abstract
 The efficient segmentation of foreground text information from the background in degraded color document images is a topic of concern. Due to the imperfect preservation of ancient documents over a long period of time, various types of degradation, including staining, yellowing, and ink seepage, have seriously affected the results of image binarization. In this paper, a three-stage method is proposed for image enhancement and binarization of degraded color document images by using discrete wavelet transform (DWT) and generative adversarial network (GAN). In Stage-1, we use DWT and retain the LL subband images to achieve the image enhancement. In Stage-2, the original input image is split into four (Red, Green, Blue and Gray) single-channel images, each of which trains the independent adversarial networks. The trained adversarial network models are used to extract the color foreground information from the images. In Stage-3, in order to combine global and local features, the output image from Stage-2 and the original input image are used to train the independent adversarial networks for document binarization. The experimental results demonstrate that our proposed method outperforms many classical and state-of-the-art (SOTA) methods on the Document Image Binarization Contest (DIBCO) dataset.
 
-## Requirements
-* Linux (Ubuntu)
-* Python >= 3.6 (Pytorch)
-* NVIDIA GPU + CUDA CuDNN
-
-## Installation
-* Install [segmentation_models](https://github.com/qubvel/segmentation_models.pytorch)
-```
-    pip install segmentation-models-pytorch
-```
-* Install [pytesseract](https://github.com/madmaze/pytesseract)
-```
-    pip install pytesseract
-```
-* Download [tesseract data](https://github.com/tesseract-ocr/tessdata_best)
-```
-    conda env create -f environment.yml
-```
-
 ## Dataset
-* Train: 
-  
-  DIBCO 2009, H-DIBCO 2010, H-DIBCO 2012, PHIBD, SMADI, Bickley Diary Dataset
-  [(Download Link)](https://www.dropbox.com/s/3qwv3jntmgu4rf9/Trainset.zip?dl=0)
+* YOLOv4:
+  [(Download Link)](https://www.dropbox.com/s/8l4va3n1cu6ul8o/yolo4.zip?dl=0)
   
 * Test: 
 
