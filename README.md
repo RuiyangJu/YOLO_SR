@@ -18,6 +18,15 @@
   <img src="Yolo_SR/yolo_output/croped_img_example_4.jpg" width="120" title="cropped">
 </p>
 
+### Example of final Image
+<p align="center">
+  <img src="Yolo_SR/final_output/croped_img_example_0_rlt.png" width="120" title="final">
+  <img src="Yolo_SR/final_output/croped_img_example_1_rlt.png" width="120" title="final">
+  <img src="Yolo_SR/final_output/croped_img_example_2_rlt.png" width="120" title="final">
+  <img src="Yolo_SR/final_output/croped_img_example_3_rlt.png" width="120" title="final">
+  <img src="Yolo_SR/final_output/croped_img_example_4_rlt.png" width="120" title="final">
+</p>
+
 ## Abstract
 The efficient segmentation of foreground text information from the background in degraded color document images is a topic of concern. Due to the imperfect preservation of ancient documents over a long period of time, various types of degradation, including staining, yellowing, and ink seepage, have seriously affected the results of image binarization. In this paper, a three-stage method is proposed for image enhancement and binarization of degraded color document images by using discrete wavelet transform (DWT) and generative adversarial network (GAN). In Stage-1, we use DWT and retain the LL subband images to achieve the image enhancement. In Stage-2, the original input image is split into four (Red, Green, Blue and Gray) single-channel images, each of which trains the independent adversarial networks. The trained adversarial network models are used to extract the color foreground information from the images. In Stage-3, in order to combine global and local features, the output image from Stage-2 and the original input image are used to train the independent adversarial networks for document binarization. The experimental results demonstrate that our proposed method outperforms many classical and state-of-the-art (SOTA) methods on the Document Image Binarization Contest (DIBCO) dataset.
 
