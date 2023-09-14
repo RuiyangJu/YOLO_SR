@@ -1,4 +1,5 @@
-## YOLOv4 and Enhanced SRGAN
+# YOLOv4 and Enhanced SRGAN
+
 ### Example of Input Image
 <p align="center">
   <img src="Yolo_SR/input/example.jpg" width="640" title="input">
@@ -35,8 +36,8 @@
   [(Download Link)](https://www.dropbox.com/s/va58gkcfo8d0c9d/prdb.zip?dl=0)
 
 ## Usage
-* YOLOv4 pretrained models in [Yolo_SR\model_data]
-* ESRGAN pretrained models in [Yolo_SR\models]
+* YOLOv4 pretrained models in [Yolo_SR/model_data]
+* ESRGAN pretrained models in [Yolo_SR/models]
 * Object Detection
 ```
     python3 yolo_test.py
