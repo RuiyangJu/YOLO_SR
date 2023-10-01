@@ -33,7 +33,7 @@
   [(Download Link)](https://www.dropbox.com/s/8l4va3n1cu6ul8o/yolo4.zip?dl=0)
   
 * ESRGAN: 
-  [(Download Link)](https://www.dropbox.com/s/va58gkcfo8d0c9d/prdb.zip?dl=0)
+  [(Google Drive Download)](https://drive.google.com/drive/u/0/folders/17VYV_SoZZesU6mbxz2dMAIccSSlqLecY)
 
 ## Usage
 * YOLOv4 pretrained models in [Yolo_SR/model_data]
