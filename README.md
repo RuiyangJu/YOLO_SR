@@ -30,7 +30,7 @@
 
 ## Pretained Models
 * YOLOv4:
-  [(Dropbox Download)](https://www.dropbox.com/s/8l4va3n1cu6ul8o/yolo4.zip?dl=0)
+  [(Dropbox Download)](https://www.dropbox.com/scl/fi/7yjvgcd80l4zkfvvt39d8/yolo4.zip?rlkey=rpl6ag8m3vt04c27ky1vg59vv&dl=0)
   
 * ESRGAN: 
   [(Google Drive Download)](https://drive.google.com/drive/u/0/folders/17VYV_SoZZesU6mbxz2dMAIccSSlqLecY)
