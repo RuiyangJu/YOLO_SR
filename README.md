@@ -28,7 +28,7 @@
   <img src="Yolo_SR/final_output/croped_img_example_4_rlt.png" width="120" title="final">
 </p>
 
-## Pretained Models
+## Trained Models
 * YOLOv4:
   [(Dropbox Download)](https://www.dropbox.com/scl/fi/7yjvgcd80l4zkfvvt39d8/yolo4.zip?rlkey=rpl6ag8m3vt04c27ky1vg59vv&dl=0)
   
