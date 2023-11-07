@@ -31,7 +31,7 @@
 ## Trained Models
 Use gdown to download the trained model from our GitHub:
 ```
-gdown https://github.com/RuiyangJu/ThreeStageBinarization/releases/download/Trained_Model/Trained.rar
+gdown https://github.com/RuiyangJu/YOLO_SR/releases/download/Trained_Model/Trained_Model.zip
 ```
 
 ## Usage
