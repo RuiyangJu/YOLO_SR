@@ -29,11 +29,10 @@
 </p>
 
 ## Trained Models
-* YOLOv4:
-  [(Dropbox Download)](https://www.dropbox.com/scl/fi/7yjvgcd80l4zkfvvt39d8/yolo4.zip?rlkey=rpl6ag8m3vt04c27ky1vg59vv&dl=0)
-  
-* ESRGAN: 
-  [(Google Drive Download)](https://drive.google.com/drive/u/0/folders/17VYV_SoZZesU6mbxz2dMAIccSSlqLecY)
+Use gdown to download the trained model from our GitHub:
+```
+gdown https://github.com/RuiyangJu/ThreeStageBinarization/releases/download/Trained_Model/Trained.rar
+```
 
 ## Usage
 * YOLOv4 pretrained models in [Yolo_SR/model_data]
