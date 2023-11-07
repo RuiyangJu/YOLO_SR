@@ -47,5 +47,5 @@ gdown https://github.com/RuiyangJu/YOLO_SR/releases/download/Trained_Model/Train
 ```
 
 ## References
-* [Cropped Detection](https://github.com/GaoZiqiang/crop_objects_based_yolov4_pytorch)
-* [ESRGAN](https://github.com/xinntao/ESRGAN)
+* [Cropped Detection YOLOv4](https://github.com/GaoZiqiang/crop_objects_based_yolov4_pytorch)
+* [Super-Resolution ESRGAN](https://github.com/xinntao/ESRGAN)
